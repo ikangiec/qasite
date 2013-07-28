@@ -1,4 +1,6 @@
 Qasite::Application.routes.draw do
+  devise_for :users
+
   resources :qas
 
   root :to => 'qas#index'

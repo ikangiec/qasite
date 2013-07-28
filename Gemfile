@@ -34,16 +34,16 @@ end
 
 group :test do
   gem 'simplecov', :require => false, :group => :test
-  gem 'capybara', '~> 2.1.0'
-  gem 'capybara-webkit', '~> 1.0.0'
+  gem 'capybara', '1.1.2'
+  #gem 'capybara-webkit', '~> 1.0.0'
   gem 'launchy'
-  gem 'factory_girl_rails', '~> 4.0'
+  gem 'factory_girl', '2.6.4'
   gem 'email_spec', '1.2.1'
 end
 
 group :development, :test do
   gem 'sqlite3'
-  gem 'rspec-rails', '~> 2.0'
+  gem 'rspec-rails', '~> 2.11'
   gem 'pry-rails' # REPL - read evaluate print loop. Just like irb.
   gem 'pry-debugger'
   gem 'pry-doc'
